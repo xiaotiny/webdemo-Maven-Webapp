@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN" "http://struts.apache.org/dtds/struts-2.3.dtd" >
+<struts>
+       <constant name="struts.objectFactory.spring.autoWire" value="type"></constant>
+       <package name="login" extends="struts-default" namespace="/">
+            <action name="loginAction" class="com.imook.action.LoginAction" method="doLogin">
+                   <result name="success">/success.jsp</result>
+                   <result name="failed">/failed.jsp</result>
+            </action>
+       </package>
+</struts>

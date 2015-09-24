@@ -1,0 +1,6 @@
+com\imook\pojo\User.class
+com\imook\pojo\TUser.class
+com\imook\dao\UserDAO.class
+com\imook\service\LoginService.class
+com\imook\service\impl\LoginServiceImpl.class
+com\imook\action\LoginAction.class
